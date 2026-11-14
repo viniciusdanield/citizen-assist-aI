@@ -1,0 +1,34 @@
+[
+  {
+    "id": "TESTE-001",
+    "tema": "trabalho",
+    "palavras_chave": ["teste", "um"],
+    "orientacao": "Texto de exemplo 1.",
+    "referencia": "https://exemplo.com",
+    "data_verificacao": "2026-11-13"
+  },
+  {
+    "id": "TESTE-002",
+    "tema": "consumidor",
+    "palavras_chave": ["teste", "dois"],
+    "orientacao": "Texto de exemplo 2.",
+    "referencia": "https://exemplo.com",
+    "data_verificacao": "2026-11-13"
+  },
+  {
+    "id": "TESTE-003",
+    "tema": "trabalho",
+    "palavras_chave": ["teste", "tres"],
+    "orientacao": "Texto de exemplo 3.",
+    "referencia": "https://exemplo.com",
+    "data_verificacao": "2026-11-13"
+  },
+    {
+    "id": "TESTE-004",
+    "tema": "educacao",
+    "palavras_chave": ["teste", "quatro"],
+    "orientacao": "Texto de exemplo 4.",
+    "referencia": "https://exemplo.com",
+    "data_verificacao": "2026-11-13"
+  }
+]
