@@ -1,7 +1,7 @@
 import json
 import re
 import unicodedata
-import base_conhecimento.json 
+
 # Campos que todo registro da base precisa ter
 CAMPOS_OBRIGATORIOS = [
     "id", "tema", "palavras_chave",
@@ -152,10 +152,6 @@ def consultar_por_pergunta(base):
     pergunta = input("\nDigite sua pergunta: ")
     if pergunta.strip() == "":
         print("Você não digitou nada.")
-            # Depois da resposta, oferece continuar por temas relacionados
-    proximo = oferecer_relacionados(base, encontrados[0]["tema"])
-    if proximo is not None:
-        navegar(base, proximo)
         return
 
     encontrados, pontos = buscar_por_pergunta(pergunta, base)
@@ -166,11 +162,17 @@ def consultar_por_pergunta(base):
         return
 
     mostrar_orientacao(encontrados[0])
+
     # Se houve empate, mostra as outras possibilidades
     if len(encontrados) > 1:
         print("\nTambém encontrei estas orientações parecidas:")
         for registro in encontrados[1:]:
             print(f"- {registro['id']} ({registro['tema']}): {', '.join(registro['palavras_chave'])}")
+
+    # Depois da resposta, oferece continuar por temas relacionados
+    proximo = oferecer_relacionados(base, encontrados[0]["tema"])
+    if proximo is not None:
+        navegar(base, proximo)
 
 def temas_relacionados(tema):
     """Devolve a lista de temas ligados a 'tema' no grafo."""
@@ -303,6 +305,5 @@ def main():
             print("Opção inválida. Digite 1, 2, 3, 4 ou 0.")
 
 
-main()
-
-'''teste de commit'''
+if __name__ == "__main__":
+    main()

@@ -1,0 +1,14 @@
+[
+  {"pergunta": "teste um",                     "esperado": "TESTE-001", "tipo": "direta"},
+  {"pergunta": "teste dois",                   "esperado": "TESTE-002", "tipo": "direta"},
+  {"pergunta": "teste tres",                   "esperado": "TESTE-003", "tipo": "direta"},
+  {"pergunta": "teste quatro",                 "esperado": "TESTE-004", "tipo": "direta"},
+  {"pergunta": "Teste, TRÊS!",                 "esperado": "TESTE-003", "tipo": "reformulada"},
+  {"pergunta": "quero o teste dois por favor", "esperado": "TESTE-002", "tipo": "reformulada"},
+  {"pergunta": "me mostra o teste quatro",     "esperado": "TESTE-004", "tipo": "reformulada"},
+  {"pergunta": "como tirar o rg",              "esperado": "NENHUM",    "tipo": "fora do tema"},
+  {"pergunta": "qual o preço do dólar",        "esperado": "NENHUM",    "tipo": "fora do tema"},
+  {"pergunta": "teste",                        "esperado": "AMBIGUA",   "tipo": "limite: ambígua"},
+  {"pergunta": "",                             "esperado": "VAZIA",     "tipo": "limite: entrada vazia"},
+  {"pergunta": "como renovar a cnh",           "esperado": "NENHUM",    "tipo": "limite: sem resposta confiável"}
+]

@@ -1,0 +1,98 @@
+[
+  {
+    "pergunta": "teste um",
+    "tipo": "direta",
+    "esperado": "TESTE-001",
+    "obtido": "TESTE-001",
+    "resultado": "ACERTO",
+    "tempo_ms": 1.3921
+  },
+  {
+    "pergunta": "teste dois",
+    "tipo": "direta",
+    "esperado": "TESTE-002",
+    "obtido": "TESTE-002",
+    "resultado": "ACERTO",
+    "tempo_ms": 0.0198
+  },
+  {
+    "pergunta": "teste tres",
+    "tipo": "direta",
+    "esperado": "TESTE-003",
+    "obtido": "TESTE-003",
+    "resultado": "ACERTO",
+    "tempo_ms": 0.0122
+  },
+  {
+    "pergunta": "teste quatro",
+    "tipo": "direta",
+    "esperado": "TESTE-004",
+    "obtido": "TESTE-004",
+    "resultado": "ACERTO",
+    "tempo_ms": 0.0242
+  },
+  {
+    "pergunta": "Teste, TRÊS!",
+    "tipo": "reformulada",
+    "esperado": "TESTE-003",
+    "obtido": "TESTE-003",
+    "resultado": "ACERTO",
+    "tempo_ms": 0.5443
+  },
+  {
+    "pergunta": "quero o teste dois por favor",
+    "tipo": "reformulada",
+    "esperado": "TESTE-002",
+    "obtido": "TESTE-002",
+    "resultado": "ACERTO",
+    "tempo_ms": 0.0186
+  },
+  {
+    "pergunta": "me mostra o teste quatro",
+    "tipo": "reformulada",
+    "esperado": "TESTE-004",
+    "obtido": "TESTE-004",
+    "resultado": "ACERTO",
+    "tempo_ms": 0.0222
+  },
+  {
+    "pergunta": "como tirar o rg",
+    "tipo": "fora do tema",
+    "esperado": "NENHUM",
+    "obtido": "NENHUM",
+    "resultado": "ACERTO",
+    "tempo_ms": 0.0169
+  },
+  {
+    "pergunta": "qual o preço do dólar",
+    "tipo": "fora do tema",
+    "esperado": "NENHUM",
+    "obtido": "NENHUM",
+    "resultado": "ACERTO",
+    "tempo_ms": 0.0269
+  },
+  {
+    "pergunta": "teste",
+    "tipo": "limite: ambígua",
+    "esperado": "AMBIGUA",
+    "obtido": "AMBIGUA",
+    "resultado": "ACERTO",
+    "tempo_ms": 0.0215
+  },
+  {
+    "pergunta": "",
+    "tipo": "limite: entrada vazia",
+    "esperado": "VAZIA",
+    "obtido": "VAZIA",
+    "resultado": "ACERTO",
+    "tempo_ms": 0.0007
+  },
+  {
+    "pergunta": "como renovar a cnh",
+    "tipo": "limite: sem resposta confiável",
+    "esperado": "NENHUM",
+    "obtido": "NENHUM",
+    "resultado": "ACERTO",
+    "tempo_ms": 0.026
+  }
+]
