@@ -1,7 +1,7 @@
 import json
 import re
 import unicodedata
-
+import base_conhecimento.json 
 # Campos que todo registro da base precisa ter
 CAMPOS_OBRIGATORIOS = [
     "id", "tema", "palavras_chave",
