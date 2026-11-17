@@ -13,11 +13,11 @@
 ## [Nome do grupo]
  
 ## 👨‍🎓 Integrantes: 
-- <a href="https://linkedin.com/in/SEU-PERFIL">[Nome do integrante 1] - RM [00000]</a>
-- <a href="https://linkedin.com/in/SEU-PERFIL">[Nome do integrante 2] - RM [00000]</a>
-- <a href="https://linkedin.com/in/SEU-PERFIL">[Nome do integrante 3] - RM [00000]</a>
-- <a href="https://linkedin.com/in/SEU-PERFIL">[Nome do integrante 4] - RM [00000]</a>
-- <a href="https://linkedin.com/in/SEU-PERFIL">[Nome do integrante 5] - RM [00000]</a>
+- <a href="https://www.linkedin.com/in/viniciusdanield/">[Vinícius Daniel de Borba] - RM [572091]</a>
+- <a href="https://www.linkedin.com/in/vitorarafe/">[Vitor de Araujo Ferreira] - RM [572838]</a>
+- <a href="https://linkedin.com/in/SEU-PERFIL">[Ana Carolina Freire Mafra] - RM [573650]</a>
+- <a href="https://linkedin.com/in/SEU-PERFIL">[Daniel Guimarães Barreto] - RM [573425]</a>
+- <a href="https://linkedin.com/in/SEU-PERFIL">[Paulo Henrique da Silva Gola] - RM [572992]</a>
 ## 👩‍🏫 Professores:
  
 ### Tutor(a)
@@ -36,7 +36,7 @@ O **Citizen Assist AI** é um assistente digital de texto, desenvolvido em Pytho
 Muitas pessoas encontram informações dispersas, termos difíceis ou instruções incompletas ao procurar orientações sobre serviços do cotidiano. Isso torna a busca lenta, confusa e sujeita a interpretações incorretas.
  
 - **Público beneficiado:** [descrever, por exemplo: cidadãos que precisam de orientações simples sobre documentos e serviços].
-- **Temas abordados:** [tema 1], [tema 2] e [tema 3].
+- **Temas abordados:** [educação], [trabalho] e [consumidor].
 ### Organização da base de conhecimento
  
 As orientações ficam no arquivo `data/base_conhecimento.json`, que é uma lista de registros. Cada registro é um dicionário com os campos obrigatórios:
@@ -149,6 +149,7 @@ Abaixo encontra-se a descrição da organização da raiz do projeto e a finalid
 * **`docs/`** Centraliza a documentação do projeto, incluindo o registro de uso de IA (`uso_ia.md`) e imagens usadas no README.
 * **`src/`** Contém o código-fonte em Python. O arquivo principal é `sistema.py`.
 * **`README.md`** Este ficheiro. Funciona como o guia principal de introdução, configuração e contextualização do projeto.
+  
 ## 📎 Links e Observações
  
 ### 🔗 Links do Projeto
