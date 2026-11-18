@@ -1,3 +1,4 @@
+
 [
   {
     "id": "TESTE-001",
@@ -7,7 +8,7 @@
     "referencia": "https://exemplo.com",
     "data_verificacao": "2026-11-13"
   },
-    {
+  {
     "id": "CONS-001",
     "tema": "consumidor",
     "palavras_chave": ["arrependimento", "desistir", "devolver", "cancelar"],
@@ -55,12 +56,52 @@
     "referencia": "https://exemplo.com",
     "data_verificacao": "2026-11-13"
   },
-    {
+  {
     "id": "TESTE-004",
     "tema": "educacao",
     "palavras_chave": ["teste", "quatro"],
     "orientacao": "Texto de exemplo 4.",
     "referencia": "https://exemplo.com",
     "data_verificacao": "2026-11-13"
+  },
+  {
+    "id": "MAMB-001",
+    "tema": "meio_ambiente",
+    "palavras_chave": ["pilhas", "baterias", "descarte de pilhas", "descartar bateria", "ponto de entrega", "logistica reversa"],
+    "orientacao": "Encaminhe pilhas e baterias usadas a pontos de recebimento que participem da logística reversa. Antes de se deslocar, consulte os pontos de entrega disponíveis na sua região.",
+    "referencia": "https://www.sinir.gov.br/perfis/logistica-reversa/logistica-reversa/pilhas-e-baterias/",
+    "data_verificacao": "2026-11-17"
+  },
+  {
+    "id": "MAMB-002",
+    "tema": "meio_ambiente",
+    "palavras_chave": ["denuncia ambiental", "denunciar desmatamento", "crime ambiental", "queimada", "ibama", "infracao ambiental"],
+    "orientacao": "É possível apresentar denúncia ao Ibama sobre possíveis infrações ambientais, como desmatamento e queimadas ilegais. Consulte o serviço oficial para verificar os canais disponíveis e as informações necessárias para registrar a denúncia.",
+    "referencia": "https://www.gov.br/pt-br/servicos/apresentar-denuncia-ambiental",
+    "data_verificacao": "2026-11-17"
+  },
+  {
+    "id": "MAMB-003",
+    "tema": "meio_ambiente",
+    "palavras_chave": ["animal silvestre", "animal selvagem", "animal ferido", "encontrei um animal", "resgate de animal", "cetas"],
+    "orientacao": "Se encontrar um animal silvestre ferido ou em situação de risco, procure orientação do Centro de Triagem de Animais Silvestres (Cetas) ou do órgão ambiental da sua região. Não tente capturar ou transportar o animal sem orientação especializada.",
+    "referencia": "https://www.gov.br/pt-br/servicos/realizar-a-entrega-de-animal-silvestre-no-centro-de-triagem-de-animais-silvestres-cetas",
+    "data_verificacao": "2026-11-17"
+  },
+  {
+    "id": "MAMB-004",
+    "tema": "meio_ambiente",
+    "palavras_chave": ["oleo de cozinha", "oleo usado", "descarte de oleo", "jogar oleo na pia", "reciclar oleo"],
+    "orientacao": "Não despeje óleo de cozinha usado na pia ou no ralo. Espere esfriar, armazene em recipiente fechado e procure um ponto de coleta ou iniciativa de reciclagem disponível no seu município.",
+    "referencia": "https://www.inea.rj.gov.br/wp-content/uploads/2020/06/Vamos_cuidar_do_lugar_onde_vivemos.pdf",
+    "data_verificacao": "2026-11-17"
+  },
+  {
+    "id": "MAMB-005",
+    "tema": "meio_ambiente",
+    "palavras_chave": ["coleta seletiva", "separar lixo", "reciclaveis", "papel", "plastico", "vidro", "metal", "separacao de residuos"],
+    "orientacao": "Separe os resíduos recicláveis dos rejeitos e siga as orientações da coleta seletiva do seu município. Papel, plástico, vidro e metal são materiais comumente recicláveis, mas as regras de recebimento podem variar conforme o serviço local.",
+    "referencia": "https://www.gov.br/cidades/pt-br/acesso-a-informacao/acoes-e-programas/saneamento/snis/area-do-prestador-e-municipios/coleta-de-dados-do-snis-residuos-solidos-1/copy_of_Manual_RS_2022.pdf",
+    "data_verificacao": "2026-11-17"
   }
 ]
