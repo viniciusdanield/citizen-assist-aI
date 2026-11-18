@@ -7,13 +7,45 @@
     "referencia": "https://exemplo.com",
     "data_verificacao": "2026-11-13"
   },
-  {
-    "id": "TESTE-002",
+    {
+    "id": "CONS-001",
     "tema": "consumidor",
-    "palavras_chave": ["teste", "dois"],
-    "orientacao": "Texto de exemplo 2.",
-    "referencia": "https://exemplo.com",
-    "data_verificacao": "2026-11-13"
+    "palavras_chave": ["arrependimento", "desistir", "devolver", "cancelar"],
+    "orientacao": "Na compra feita fora da loja, como pela internet ou por telefone, o consumidor pode desistir em até 7 dias, sem precisar explicar o motivo. O prazo conta da assinatura do contrato ou do recebimento do produto, e o valor pago deve ser devolvido.",
+    "referencia": "https://www.planalto.gov.br/ccivil_03/leis/l8078compilado.htm#art49",
+    "data_verificacao": "2026-11-17"
+  },
+  {
+    "id": "CONS-002",
+    "tema": "consumidor",
+    "palavras_chave": ["defeito", "defeituoso", "quebrou", "estragou", "garantia", "trocar"],
+    "orientacao": "Se o produto tem defeito, o fornecedor tem 30 dias para consertar. Se não resolver nesse prazo, o consumidor pode escolher entre trocar o produto, receber o dinheiro de volta ou pedir abatimento no preço.",
+    "referencia": "https://www.planalto.gov.br/ccivil_03/leis/l8078compilado.htm#art18",
+    "data_verificacao": "2026-11-17"
+  },
+  {
+    "id": "CONS-003",
+    "tema": "consumidor",
+    "palavras_chave": ["cobranca", "cobrado", "indevida", "indevido", "dobro", "restituicao"],
+    "orientacao": "Quem é cobrado por um valor que não devia e paga tem direito de receber de volta o dobro do que pagou a mais, com correção e juros, a não ser que a empresa prove que foi um engano justificável.",
+    "referencia": "https://www.planalto.gov.br/ccivil_03/leis/l8078compilado.htm#art42",
+    "data_verificacao": "2026-11-17"
+  },
+  {
+    "id": "CONS-004",
+    "tema": "consumidor",
+    "palavras_chave": ["ecommerce", "virtual", "sac", "atendimento", "oferta"],
+    "orientacao": "Lojas virtuais devem mostrar de forma clara os dados da empresa, como nome, CNPJ e endereço, além das características e do preço do produto. Também devem ter atendimento (SAC) para dúvidas, reclamações e cancelamentos, e permitir o arrependimento pelo mesmo meio usado na compra.",
+    "referencia": "https://www.planalto.gov.br/ccivil_03/_ato2011-2014/2013/decreto/d7962.htm",
+    "data_verificacao": "2026-11-17"
+  },
+  {
+    "id": "CONS-005",
+    "tema": "consumidor",
+    "palavras_chave": ["reclamar", "reclamacao", "procon", "denunciar"],
+    "orientacao": "Se a empresa não resolve o problema, o consumidor pode registrar reclamação no Consumidor.gov.br, onde a empresa tem até 10 dias para responder (só vale para empresas cadastradas), ou procurar o Procon. Vale guardar protocolos, notas fiscais e prints das conversas.",
+    "referencia": "https://www.consumidor.gov.br/pages/faleconosco/externo/novo",
+    "data_verificacao": "2026-11-17"
   },
   {
     "id": "TESTE-003",
