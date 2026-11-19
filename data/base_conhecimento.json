@@ -1,12 +1,42 @@
-
-[
-  {
-    "id": "TESTE-001",
+  [{
+    "id": "TRAB-001",
     "tema": "trabalho",
-    "palavras_chave": ["teste", "um"],
-    "orientacao": "Texto de exemplo 1.",
-    "referencia": "https://exemplo.com",
-    "data_verificacao": "2026-11-13"
+    "palavras_chave": ["carteira de trabalho digital", "ctps digital", "carteira digital", "acessar carteira de trabalho", "ctps", "app carteira de trabalho", "carteira de trabalho"],
+    "orientacao": "A Carteira de Trabalho Digital pode ser acessada gratuitamente pelo aplicativo no celular ou pelo site do governo, usando uma conta gov.br.",
+    "referencia": "https://www.gov.br/pt-br/servicos/obter-a-carteira-de-trabalho",
+    "data_verificacao": "2026-11-19"
+  },
+  {
+    "id": "TRAB-002",
+    "tema": "trabalho",
+    "palavras_chave": ["seguro desemprego", "pedir seguro desemprego", "solicitar seguro desemprego", "dar entrada seguro desemprego", "demitido", "fui demitido", "demissao", "sem justa causa", "requerimento", "perdi emprego", "desempregado"],
+    "orientacao": "O seguro-desemprego é um benefício para quem foi dispensado sem justa causa. O pedido pode ser feito pelo portal de serviços do governo, pelo aplicativo da Carteira de Trabalho Digital, pelo telefone 158 ou presencialmente, e a liberação pode ser acompanhada no gov.br ou no aplicativo.",
+    "referencia": "https://www.gov.br/pt-br/servicos/solicitar-o-seguro-desemprego",
+    "data_verificacao": "2026-11-19"
+  },
+  {
+    "id": "TRAB-003",
+    "tema": "trabalho",
+    "palavras_chave": ["recurso", "recurso seguro desemprego", "seguro desemprego negado", "negado", "negaram", "indeferido", "revisao", "pedir revisao", "recorrer"],
+    "orientacao": "Se o pedido de seguro-desemprego for negado, é possível pedir revisão por meio de um recurso administrativo ao Ministério do Trabalho e Emprego. O prazo é de 120 dias a partir da notificação, e o recurso é cadastrado no portal de serviços ou no aplicativo da Carteira de Trabalho Digital.",
+    "referencia": "https://www.gov.br/pt-br/servicos/cadastrar-recurso-relativo-ao-seguro-desemprego",
+    "data_verificacao": "2026-11-19"
+  },
+  {
+    "id": "TRAB-004",
+    "tema": "trabalho",
+    "palavras_chave": ["empregada domestica", "empregado domestico", "domestica", "domestico", "seguro desemprego domestica", "seguro desemprego domestico", "trabalhador domestico"],
+    "orientacao": "O empregado doméstico dispensado sem justa causa também pode pedir seguro-desemprego, mas o prazo é de 7 a 90 dias após a demissão. O pedido pode ser feito pelo aplicativo da Carteira de Trabalho Digital (informando CPF do empregador e as datas de admissão e demissão), pelo portal ou pelo telefone 158.",
+    "referencia": "https://www.gov.br/pt-br/servicos/solicitar-seguro-desemprego-empregado-domestico",
+    "data_verificacao": "2026-11-19"
+  },
+  {
+    "id": "TRAB-005",
+    "tema": "trabalho",
+    "palavras_chave": ["abono salarial", "abono", "pis", "pasep", "pis pasep", "receber abono", "direito ao abono", "consultar abono"],
+    "orientacao": "O abono salarial (PIS/Pasep) é pago uma vez por ano a quem trabalhou para empregador contribuinte, teve remuneração média dentro do limite, atuou pelo menos 30 dias no ano-base e está cadastrado há 5 anos ou mais. A consulta é feita na Carteira de Trabalho Digital ou no gov.br, e o pagamento sai pela Caixa (PIS) ou pelo Banco do Brasil (Pasep).",
+    "referencia": "https://www.gov.br/pt-br/servicos/receber-o-abono-salarial",
+    "data_verificacao": "2026-11-19"
   },
   {
     "id": "CONS-001",
@@ -43,26 +73,10 @@
   {
     "id": "CONS-005",
     "tema": "consumidor",
-    "palavras_chave": ["reclamar", "reclamacao", "procon", "denunciar"],
+    "palavras_chave": ["reclamar", "reclamacao", "procon", "denunciar", "empresa nao resolve", "nao resolve"],
     "orientacao": "Se a empresa não resolve o problema, o consumidor pode registrar reclamação no Consumidor.gov.br, onde a empresa tem até 10 dias para responder (só vale para empresas cadastradas), ou procurar o Procon. Vale guardar protocolos, notas fiscais e prints das conversas.",
     "referencia": "https://www.consumidor.gov.br/pages/faleconosco/externo/novo",
     "data_verificacao": "2026-11-17"
-  },
-  {
-    "id": "TESTE-003",
-    "tema": "trabalho",
-    "palavras_chave": ["teste", "tres"],
-    "orientacao": "Texto de exemplo 3.",
-    "referencia": "https://exemplo.com",
-    "data_verificacao": "2026-11-13"
-  },
-  {
-    "id": "TESTE-004",
-    "tema": "educacao",
-    "palavras_chave": ["teste", "quatro"],
-    "orientacao": "Texto de exemplo 4.",
-    "referencia": "https://exemplo.com",
-    "data_verificacao": "2026-11-13"
   },
   {
     "id": "MAMB-001",

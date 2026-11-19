@@ -1,59 +1,115 @@
 [
   {
-    "pergunta": "teste um",
+    "pergunta": "como pedir o seguro-desemprego",
     "tipo": "direta",
-    "esperado": "TESTE-001",
-    "obtido": "TESTE-001",
+    "esperado": "TRAB-002",
+    "obtido": "TRAB-002",
     "resultado": "ACERTO",
-    "tempo_ms": 0.1282
+    "tempo_ms": 0.4607
   },
   {
-    "pergunta": "teste dois",
+    "pergunta": "como acessar a carteira de trabalho digital",
     "tipo": "direta",
-    "esperado": "TESTE-002",
-    "obtido": "TESTE-002",
+    "esperado": "TRAB-001",
+    "obtido": "TRAB-001",
     "resultado": "ACERTO",
-    "tempo_ms": 0.0242
+    "tempo_ms": 0.3461
   },
   {
-    "pergunta": "teste tres",
+    "pergunta": "como funciona o abono salarial",
     "tipo": "direta",
-    "esperado": "TESTE-003",
-    "obtido": "TESTE-003",
+    "esperado": "TRAB-005",
+    "obtido": "TRAB-005",
     "resultado": "ACERTO",
-    "tempo_ms": 0.0288
+    "tempo_ms": 0.3157
   },
   {
-    "pergunta": "teste quatro",
+    "pergunta": "como fazer coleta seletiva",
     "tipo": "direta",
-    "esperado": "TESTE-004",
-    "obtido": "TESTE-004",
+    "esperado": "MAMB-005",
+    "obtido": "MAMB-005",
     "resultado": "ACERTO",
-    "tempo_ms": 0.0233
+    "tempo_ms": 0.481
   },
   {
-    "pergunta": "Teste, TRÊS!",
+    "pergunta": "onde descartar pilhas",
+    "tipo": "direta",
+    "esperado": "MAMB-001",
+    "obtido": "MAMB-001",
+    "resultado": "ACERTO",
+    "tempo_ms": 0.3135
+  },
+  {
+    "pergunta": "meu produto veio com defeito",
+    "tipo": "direta",
+    "esperado": "CONS-002",
+    "obtido": "CONS-002",
+    "resultado": "ACERTO",
+    "tempo_ms": 0.3906
+  },
+  {
+    "pergunta": "fui demitido, o que eu faço?",
     "tipo": "reformulada",
-    "esperado": "TESTE-003",
-    "obtido": "TESTE-003",
+    "esperado": "TRAB-002",
+    "obtido": "TRAB-002",
     "resultado": "ACERTO",
-    "tempo_ms": 0.0406
+    "tempo_ms": 0.5104
   },
   {
-    "pergunta": "quero o teste dois por favor",
+    "pergunta": "meu seguro-desemprego foi negado",
     "tipo": "reformulada",
-    "esperado": "TESTE-002",
-    "obtido": "TESTE-002",
+    "esperado": "TRAB-003",
+    "obtido": "TRAB-003",
     "resultado": "ACERTO",
-    "tempo_ms": 0.0412
+    "tempo_ms": 0.4717
   },
   {
-    "pergunta": "me mostra o teste quatro",
+    "pergunta": "quero devolver um produto que comprei online",
     "tipo": "reformulada",
-    "esperado": "TESTE-004",
-    "obtido": "TESTE-004",
+    "esperado": "CONS-001",
+    "obtido": "CONS-001",
     "resultado": "ACERTO",
-    "tempo_ms": 0.0277
+    "tempo_ms": 0.4867
+  },
+  {
+    "pergunta": "fui cobrado a mais no cartão",
+    "tipo": "reformulada",
+    "esperado": "CONS-003",
+    "obtido": "CONS-003",
+    "resultado": "ACERTO",
+    "tempo_ms": 0.3173
+  },
+  {
+    "pergunta": "como jogar óleo de cozinha fora",
+    "tipo": "reformulada",
+    "esperado": "MAMB-004",
+    "obtido": "MAMB-004",
+    "resultado": "ACERTO",
+    "tempo_ms": 0.3094
+  },
+  {
+    "pergunta": "encontrei um animal silvestre ferido",
+    "tipo": "reformulada",
+    "esperado": "MAMB-003",
+    "obtido": "MAMB-003",
+    "resultado": "ACERTO",
+    "tempo_ms": 0.3012
+  },
+  {
+    "pergunta": "o que fazer se a empresa não resolve meu problema",
+    "tipo": "reformulada",
+    "esperado": "CONS-005",
+    "obtido": "CONS-005",
+    "resultado": "ACERTO",
+    "tempo_ms": 0.3921
+  },
+  {
+    "pergunta": "perdi meu emprego, tenho direito a algum benefício?",
+    "tipo": "reformulada",
+    "esperado": "TRAB-002",
+    "obtido": "TRAB-002",
+    "resultado": "ACERTO",
+    "tempo_ms": 0.3388
   },
   {
     "pergunta": "como tirar o rg",
@@ -61,7 +117,7 @@
     "esperado": "NENHUM",
     "obtido": "NENHUM",
     "resultado": "ACERTO",
-    "tempo_ms": 0.0254
+    "tempo_ms": 0.3321
   },
   {
     "pergunta": "qual o preço do dólar",
@@ -69,15 +125,7 @@
     "esperado": "NENHUM",
     "obtido": "NENHUM",
     "resultado": "ACERTO",
-    "tempo_ms": 0.0283
-  },
-  {
-    "pergunta": "teste",
-    "tipo": "limite: ambígua",
-    "esperado": "AMBIGUA",
-    "obtido": "AMBIGUA",
-    "resultado": "ACERTO",
-    "tempo_ms": 0.0207
+    "tempo_ms": 0.3551
   },
   {
     "pergunta": "",
@@ -85,7 +133,15 @@
     "esperado": "VAZIA",
     "obtido": "VAZIA",
     "resultado": "ACERTO",
-    "tempo_ms": 0.0008
+    "tempo_ms": 0.0009
+  },
+  {
+    "pergunta": "quero reclamar de uma loja virtual",
+    "tipo": "limite: ambígua",
+    "esperado": "AMBIGUA",
+    "obtido": "AMBIGUA",
+    "resultado": "ACERTO",
+    "tempo_ms": 0.3247
   },
   {
     "pergunta": "como renovar a cnh",
@@ -93,6 +149,6 @@
     "esperado": "NENHUM",
     "obtido": "NENHUM",
     "resultado": "ACERTO",
-    "tempo_ms": 0.0274
+    "tempo_ms": 0.4804
   }
 ]
