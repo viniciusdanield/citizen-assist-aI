@@ -16,7 +16,7 @@
 
 - <a href="https://www.linkedin.com/in/viniciusdanield/">Vinícius Daniel de Borba - RM 572091</a>
 - <a href="https://www.linkedin.com/in/vitorarafe/">Vitor de Araujo Ferreira - RM 572838</a>
-- <a href="https://linkedin.com/in/SEU-PERFIL">Ana Carolina Freire Mafra - RM 573650</a>
+- <a href="https://www.linkedin.com/in/anacfmafra/">Ana Carolina Freire Mafra - RM 573650</a>
 - <a href="https://linkedin.com/in/SEU-PERFIL">Daniel Guimarães Barreto - RM 573425</a>
 - <a href="https://linkedin.com/in/SEU-PERFIL">Paulo Henrique da Silva Gola - RM 572992</a>
 
