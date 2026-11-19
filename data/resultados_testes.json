@@ -5,7 +5,7 @@
     "esperado": "TESTE-001",
     "obtido": "TESTE-001",
     "resultado": "ACERTO",
-    "tempo_ms": 1.3921
+    "tempo_ms": 0.1282
   },
   {
     "pergunta": "teste dois",
@@ -13,7 +13,7 @@
     "esperado": "TESTE-002",
     "obtido": "TESTE-002",
     "resultado": "ACERTO",
-    "tempo_ms": 0.0198
+    "tempo_ms": 0.0242
   },
   {
     "pergunta": "teste tres",
@@ -21,7 +21,7 @@
     "esperado": "TESTE-003",
     "obtido": "TESTE-003",
     "resultado": "ACERTO",
-    "tempo_ms": 0.0122
+    "tempo_ms": 0.0288
   },
   {
     "pergunta": "teste quatro",
@@ -29,7 +29,7 @@
     "esperado": "TESTE-004",
     "obtido": "TESTE-004",
     "resultado": "ACERTO",
-    "tempo_ms": 0.0242
+    "tempo_ms": 0.0233
   },
   {
     "pergunta": "Teste, TRÊS!",
@@ -37,7 +37,7 @@
     "esperado": "TESTE-003",
     "obtido": "TESTE-003",
     "resultado": "ACERTO",
-    "tempo_ms": 0.5443
+    "tempo_ms": 0.0406
   },
   {
     "pergunta": "quero o teste dois por favor",
@@ -45,7 +45,7 @@
     "esperado": "TESTE-002",
     "obtido": "TESTE-002",
     "resultado": "ACERTO",
-    "tempo_ms": 0.0186
+    "tempo_ms": 0.0412
   },
   {
     "pergunta": "me mostra o teste quatro",
@@ -53,7 +53,7 @@
     "esperado": "TESTE-004",
     "obtido": "TESTE-004",
     "resultado": "ACERTO",
-    "tempo_ms": 0.0222
+    "tempo_ms": 0.0277
   },
   {
     "pergunta": "como tirar o rg",
@@ -61,7 +61,7 @@
     "esperado": "NENHUM",
     "obtido": "NENHUM",
     "resultado": "ACERTO",
-    "tempo_ms": 0.0169
+    "tempo_ms": 0.0254
   },
   {
     "pergunta": "qual o preço do dólar",
@@ -69,7 +69,7 @@
     "esperado": "NENHUM",
     "obtido": "NENHUM",
     "resultado": "ACERTO",
-    "tempo_ms": 0.0269
+    "tempo_ms": 0.0283
   },
   {
     "pergunta": "teste",
@@ -77,7 +77,7 @@
     "esperado": "AMBIGUA",
     "obtido": "AMBIGUA",
     "resultado": "ACERTO",
-    "tempo_ms": 0.0215
+    "tempo_ms": 0.0207
   },
   {
     "pergunta": "",
@@ -85,7 +85,7 @@
     "esperado": "VAZIA",
     "obtido": "VAZIA",
     "resultado": "ACERTO",
-    "tempo_ms": 0.0007
+    "tempo_ms": 0.0008
   },
   {
     "pergunta": "como renovar a cnh",
@@ -93,6 +93,6 @@
     "esperado": "NENHUM",
     "obtido": "NENHUM",
     "resultado": "ACERTO",
-    "tempo_ms": 0.026
+    "tempo_ms": 0.0274
   }
 ]

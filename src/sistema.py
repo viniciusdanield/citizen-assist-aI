@@ -16,6 +16,11 @@ RELACIONADOS = {
     "meio_ambiente": ["consumidor", "educacao"],
     "consumidor":    ["transito", "meio_ambiente", "trabalho"],
 }
+# Palavras comuns que não ajudam a identificar o assunto da pergunta
+PALAVRAS_VAZIAS = {
+    "de", "do", "da", "dos", "das", "a", "o", "as", "os",
+    "um", "uma", "para", "por", "em", "no", "na",
+}
 
 # Modelo de resposta em uso: "A" (curto) ou "B" (detalhado)
 MODELO_ATUAL = {"nome": "B"}
@@ -120,14 +125,28 @@ def normalizar(texto):
     sem_acento = re.sub(r"[^a-z0-9 ]", " ", sem_acento)
     return " ".join(sem_acento.split())
 
+def raiz(palavra):
+    """Tira o 's' final de palavras longas, para tratar plural como singular.
+    Ex.: 'pilhas' -> 'pilha'. Palavras curtas (pis, gas) ficam como estão."""
+    if len(palavra) > 3 and palavra.endswith("s"):
+        return palavra[:-1]
+    return palavra
 
 def pontuar(pergunta_norm, registro):
-    """Conta quantas palavras-chave do registro aparecem na pergunta."""
+    """Pontua o registro pela pergunta.
+    Uma palavra-chave só conta quando TODAS as suas palavras aparecem na
+    pergunta, em qualquer ordem (palavras vazias e plural são ignorados).
+    Cada palavra-chave vale tantos pontos quanto palavras tem: frases mais
+    específicas ('denunciar desmatamento') valem mais que palavras soltas."""
+    palavras_pergunta = {raiz(p) for p in pergunta_norm.split()}
     pontos = 0
-    for palavra in registro["palavras_chave"]:
-        # Os espaços nas pontas evitam achar 'rg' dentro de 'energia'
-        if f" {normalizar(palavra)} " in f" {pergunta_norm} ":
-            pontos += 1
+    for palavra_chave in registro["palavras_chave"]:
+        partes = [
+            raiz(p) for p in normalizar(palavra_chave).split()
+            if p not in PALAVRAS_VAZIAS
+        ]
+        if partes and all(p in palavras_pergunta for p in partes):
+            pontos += len(partes)
     return pontos
 
 
