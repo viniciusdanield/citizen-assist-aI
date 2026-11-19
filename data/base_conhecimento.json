@@ -1,121 +1,202 @@
-  [{
-    "id": "TRAB-001",
-    "tema": "trabalho",
-    "palavras_chave": ["carteira de trabalho digital", "ctps digital", "carteira digital", "acessar carteira de trabalho", "ctps", "app carteira de trabalho", "carteira de trabalho"],
-    "orientacao": "A Carteira de Trabalho Digital pode ser acessada gratuitamente pelo aplicativo no celular ou pelo site do governo, usando uma conta gov.br.",
-    "referencia": "https://www.gov.br/pt-br/servicos/obter-a-carteira-de-trabalho",
-    "data_verificacao": "2026-11-19"
-  },
-  {
-    "id": "TRAB-002",
-    "tema": "trabalho",
-    "palavras_chave": ["seguro desemprego", "pedir seguro desemprego", "solicitar seguro desemprego", "dar entrada seguro desemprego", "demitido", "fui demitido", "demissao", "sem justa causa", "requerimento", "perdi emprego", "desempregado"],
-    "orientacao": "O seguro-desemprego é um benefício para quem foi dispensado sem justa causa. O pedido pode ser feito pelo portal de serviços do governo, pelo aplicativo da Carteira de Trabalho Digital, pelo telefone 158 ou presencialmente, e a liberação pode ser acompanhada no gov.br ou no aplicativo.",
-    "referencia": "https://www.gov.br/pt-br/servicos/solicitar-o-seguro-desemprego",
-    "data_verificacao": "2026-11-19"
-  },
-  {
-    "id": "TRAB-003",
-    "tema": "trabalho",
-    "palavras_chave": ["recurso", "recurso seguro desemprego", "seguro desemprego negado", "negado", "negaram", "indeferido", "revisao", "pedir revisao", "recorrer"],
-    "orientacao": "Se o pedido de seguro-desemprego for negado, é possível pedir revisão por meio de um recurso administrativo ao Ministério do Trabalho e Emprego. O prazo é de 120 dias a partir da notificação, e o recurso é cadastrado no portal de serviços ou no aplicativo da Carteira de Trabalho Digital.",
-    "referencia": "https://www.gov.br/pt-br/servicos/cadastrar-recurso-relativo-ao-seguro-desemprego",
-    "data_verificacao": "2026-11-19"
-  },
-  {
-    "id": "TRAB-004",
-    "tema": "trabalho",
-    "palavras_chave": ["empregada domestica", "empregado domestico", "domestica", "domestico", "seguro desemprego domestica", "seguro desemprego domestico", "trabalhador domestico"],
-    "orientacao": "O empregado doméstico dispensado sem justa causa também pode pedir seguro-desemprego, mas o prazo é de 7 a 90 dias após a demissão. O pedido pode ser feito pelo aplicativo da Carteira de Trabalho Digital (informando CPF do empregador e as datas de admissão e demissão), pelo portal ou pelo telefone 158.",
-    "referencia": "https://www.gov.br/pt-br/servicos/solicitar-seguro-desemprego-empregado-domestico",
-    "data_verificacao": "2026-11-19"
-  },
-  {
-    "id": "TRAB-005",
-    "tema": "trabalho",
-    "palavras_chave": ["abono salarial", "abono", "pis", "pasep", "pis pasep", "receber abono", "direito ao abono", "consultar abono"],
-    "orientacao": "O abono salarial (PIS/Pasep) é pago uma vez por ano a quem trabalhou para empregador contribuinte, teve remuneração média dentro do limite, atuou pelo menos 30 dias no ano-base e está cadastrado há 5 anos ou mais. A consulta é feita na Carteira de Trabalho Digital ou no gov.br, e o pagamento sai pela Caixa (PIS) ou pelo Banco do Brasil (Pasep).",
-    "referencia": "https://www.gov.br/pt-br/servicos/receber-o-abono-salarial",
-    "data_verificacao": "2026-11-19"
-  },
-  {
-    "id": "CONS-001",
-    "tema": "consumidor",
-    "palavras_chave": ["arrependimento", "desistir", "devolver", "cancelar"],
-    "orientacao": "Na compra feita fora da loja, como pela internet ou por telefone, o consumidor pode desistir em até 7 dias, sem precisar explicar o motivo. O prazo conta da assinatura do contrato ou do recebimento do produto, e o valor pago deve ser devolvido.",
-    "referencia": "https://www.planalto.gov.br/ccivil_03/leis/l8078compilado.htm#art49",
-    "data_verificacao": "2026-11-17"
-  },
-  {
-    "id": "CONS-002",
-    "tema": "consumidor",
-    "palavras_chave": ["defeito", "defeituoso", "quebrou", "estragou", "garantia", "trocar"],
-    "orientacao": "Se o produto tem defeito, o fornecedor tem 30 dias para consertar. Se não resolver nesse prazo, o consumidor pode escolher entre trocar o produto, receber o dinheiro de volta ou pedir abatimento no preço.",
-    "referencia": "https://www.planalto.gov.br/ccivil_03/leis/l8078compilado.htm#art18",
-    "data_verificacao": "2026-11-17"
-  },
-  {
-    "id": "CONS-003",
-    "tema": "consumidor",
-    "palavras_chave": ["cobranca", "cobrado", "indevida", "indevido", "dobro", "restituicao"],
-    "orientacao": "Quem é cobrado por um valor que não devia e paga tem direito de receber de volta o dobro do que pagou a mais, com correção e juros, a não ser que a empresa prove que foi um engano justificável.",
-    "referencia": "https://www.planalto.gov.br/ccivil_03/leis/l8078compilado.htm#art42",
-    "data_verificacao": "2026-11-17"
-  },
-  {
-    "id": "CONS-004",
-    "tema": "consumidor",
-    "palavras_chave": ["ecommerce", "virtual", "sac", "atendimento", "oferta"],
-    "orientacao": "Lojas virtuais devem mostrar de forma clara os dados da empresa, como nome, CNPJ e endereço, além das características e do preço do produto. Também devem ter atendimento (SAC) para dúvidas, reclamações e cancelamentos, e permitir o arrependimento pelo mesmo meio usado na compra.",
-    "referencia": "https://www.planalto.gov.br/ccivil_03/_ato2011-2014/2013/decreto/d7962.htm",
-    "data_verificacao": "2026-11-17"
-  },
-  {
-    "id": "CONS-005",
-    "tema": "consumidor",
-    "palavras_chave": ["reclamar", "reclamacao", "procon", "denunciar", "empresa nao resolve", "nao resolve"],
-    "orientacao": "Se a empresa não resolve o problema, o consumidor pode registrar reclamação no Consumidor.gov.br, onde a empresa tem até 10 dias para responder (só vale para empresas cadastradas), ou procurar o Procon. Vale guardar protocolos, notas fiscais e prints das conversas.",
-    "referencia": "https://www.consumidor.gov.br/pages/faleconosco/externo/novo",
-    "data_verificacao": "2026-11-17"
-  },
-  {
-    "id": "MAMB-001",
-    "tema": "meio_ambiente",
-    "palavras_chave": ["pilhas", "baterias", "descarte de pilhas", "descartar bateria", "ponto de entrega", "logistica reversa"],
-    "orientacao": "Encaminhe pilhas e baterias usadas a pontos de recebimento que participem da logística reversa. Antes de se deslocar, consulte os pontos de entrega disponíveis na sua região.",
-    "referencia": "https://www.sinir.gov.br/perfis/logistica-reversa/logistica-reversa/pilhas-e-baterias/",
-    "data_verificacao": "2026-11-17"
-  },
-  {
-    "id": "MAMB-002",
-    "tema": "meio_ambiente",
-    "palavras_chave": ["denuncia ambiental", "denunciar desmatamento", "crime ambiental", "queimada", "ibama", "infracao ambiental"],
-    "orientacao": "É possível apresentar denúncia ao Ibama sobre possíveis infrações ambientais, como desmatamento e queimadas ilegais. Consulte o serviço oficial para verificar os canais disponíveis e as informações necessárias para registrar a denúncia.",
-    "referencia": "https://www.gov.br/pt-br/servicos/apresentar-denuncia-ambiental",
-    "data_verificacao": "2026-11-17"
-  },
-  {
-    "id": "MAMB-003",
-    "tema": "meio_ambiente",
-    "palavras_chave": ["animal silvestre", "animal selvagem", "animal ferido", "encontrei um animal", "resgate de animal", "cetas"],
-    "orientacao": "Se encontrar um animal silvestre ferido ou em situação de risco, procure orientação do Centro de Triagem de Animais Silvestres (Cetas) ou do órgão ambiental da sua região. Não tente capturar ou transportar o animal sem orientação especializada.",
-    "referencia": "https://www.gov.br/pt-br/servicos/realizar-a-entrega-de-animal-silvestre-no-centro-de-triagem-de-animais-silvestres-cetas",
-    "data_verificacao": "2026-11-17"
-  },
-  {
-    "id": "MAMB-004",
-    "tema": "meio_ambiente",
-    "palavras_chave": ["oleo de cozinha", "oleo usado", "descarte de oleo", "jogar oleo na pia", "reciclar oleo"],
-    "orientacao": "Não despeje óleo de cozinha usado na pia ou no ralo. Espere esfriar, armazene em recipiente fechado e procure um ponto de coleta ou iniciativa de reciclagem disponível no seu município.",
-    "referencia": "https://www.inea.rj.gov.br/wp-content/uploads/2020/06/Vamos_cuidar_do_lugar_onde_vivemos.pdf",
-    "data_verificacao": "2026-11-17"
-  },
-  {
-    "id": "MAMB-005",
-    "tema": "meio_ambiente",
-    "palavras_chave": ["coleta seletiva", "separar lixo", "reciclaveis", "papel", "plastico", "vidro", "metal", "separacao de residuos"],
-    "orientacao": "Separe os resíduos recicláveis dos rejeitos e siga as orientações da coleta seletiva do seu município. Papel, plástico, vidro e metal são materiais comumente recicláveis, mas as regras de recebimento podem variar conforme o serviço local.",
-    "referencia": "https://www.gov.br/cidades/pt-br/acesso-a-informacao/acoes-e-programas/saneamento/snis/area-do-prestador-e-municipios/coleta-de-dados-do-snis-residuos-solidos-1/copy_of_Manual_RS_2022.pdf",
-    "data_verificacao": "2026-11-17"
-  }
-]
+  [
+    {
+      "id": "TRAB-001",
+      "tema": "trabalho",
+      "palavras_chave": ["carteira de trabalho digital","ctps digital","carteira digital","acessar carteira de trabalho","ctps","app carteira de trabalho","carteira de trabalho"],
+      "orientacao": "A Carteira de Trabalho Digital pode ser acessada gratuitamente pelo aplicativo no celular ou pelo site do governo, usando uma conta gov.br.",
+      "referencia": "https://www.gov.br/pt-br/servicos/obter-a-carteira-de-trabalho",
+      "data_verificacao": "2026-11-19"
+    },
+    {
+      "id": "TRAB-002",
+      "tema": "trabalho",
+      "palavras_chave": ["seguro desemprego","pedir seguro desemprego","solicitar seguro desemprego","dar entrada seguro desemprego","demitido","fui demitido","demissao","sem justa causa","requerimento","perdi emprego","desempregado"],
+      "orientacao": "O seguro-desemprego é um benefício para quem foi dispensado sem justa causa. O pedido pode ser feito pelo portal de serviços do governo, pelo aplicativo da Carteira de Trabalho Digital, pelo telefone 158 ou presencialmente, e a liberação pode ser acompanhada no gov.br ou no aplicativo.",
+      "referencia": "https://www.gov.br/pt-br/servicos/solicitar-o-seguro-desemprego",
+      "data_verificacao": "2026-11-19"
+    },
+    {
+      "id": "TRAB-003",
+      "tema": "trabalho",
+      "palavras_chave": ["recurso","recurso seguro desemprego","seguro desemprego negado","negado","negaram","indeferido","revisao","pedir revisao","recorrer"],
+      "orientacao": "Se o pedido de seguro-desemprego for negado, é possível pedir revisão por meio de um recurso administrativo ao Ministério do Trabalho e Emprego. O prazo é de 120 dias a partir da notificação, e o recurso é cadastrado no portal de serviços ou no aplicativo da Carteira de Trabalho Digital.",
+      "referencia": "https://www.gov.br/pt-br/servicos/cadastrar-recurso-relativo-ao-seguro-desemprego",
+      "data_verificacao": "2026-11-19"
+    },
+    {
+      "id": "TRAB-004",
+      "tema": "trabalho",
+      "palavras_chave": ["empregada domestica","empregado domestico","domestica","domestico","seguro desemprego domestica","seguro desemprego domestico","trabalhador domestico"],
+      "orientacao": "O empregado doméstico dispensado sem justa causa também pode pedir seguro-desemprego, mas o prazo é de 7 a 90 dias após a demissão. O pedido pode ser feito pelo aplicativo da Carteira de Trabalho Digital (informando CPF do empregador e as datas de admissão e demissão), pelo portal ou pelo telefone 158.",
+      "referencia": "https://www.gov.br/pt-br/servicos/solicitar-seguro-desemprego-empregado-domestico",
+      "data_verificacao": "2026-11-19"
+    },
+    {
+      "id": "TRAB-005",
+      "tema": "trabalho",
+      "palavras_chave": ["abono salarial","abono","pis","pasep","pis pasep","receber abono","direito ao abono","consultar abono"],
+      "orientacao": "O abono salarial (PIS/Pasep) é pago uma vez por ano a quem trabalhou para empregador contribuinte, teve remuneração média dentro do limite, atuou pelo menos 30 dias no ano-base e está cadastrado há 5 anos ou mais. A consulta é feita na Carteira de Trabalho Digital ou no gov.br, e o pagamento sai pela Caixa (PIS) ou pelo Banco do Brasil (Pasep).",
+      "referencia": "https://www.gov.br/pt-br/servicos/receber-o-abono-salarial",
+      "data_verificacao": "2026-11-19"
+    },
+    {
+      "id": "CONS-001",
+      "tema": "consumidor",
+      "palavras_chave": ["arrependimento","desistir","devolver","cancelar"],
+      "orientacao": "Na compra feita fora da loja, como pela internet ou por telefone, o consumidor pode desistir em até 7 dias, sem precisar explicar o motivo. O prazo conta da assinatura do contrato ou do recebimento do produto, e o valor pago deve ser devolvido.",
+      "referencia": "https://www.planalto.gov.br/ccivil_03/leis/l8078compilado.htm#art49",
+      "data_verificacao": "2026-11-17"
+    },
+    {
+      "id": "CONS-002",
+      "tema": "consumidor",
+      "palavras_chave": ["defeito","defeituoso","quebrou","estragou","garantia","trocar"],
+      "orientacao": "Se o produto tem defeito, o fornecedor tem 30 dias para consertar. Se não resolver nesse prazo, o consumidor pode escolher entre trocar o produto, receber o dinheiro de volta ou pedir abatimento no preço.",
+      "referencia": "https://www.planalto.gov.br/ccivil_03/leis/l8078compilado.htm#art18",
+      "data_verificacao": "2026-11-17"
+    },
+    {
+      "id": "CONS-003",
+      "tema": "consumidor",
+      "palavras_chave": ["cobranca","cobrado","indevida","indevido","dobro","restituicao"],
+      "orientacao": "Quem é cobrado por um valor que não devia e paga tem direito de receber de volta o dobro do que pagou a mais, com correção e juros, a não ser que a empresa prove que foi um engano justificável.",
+      "referencia": "https://www.planalto.gov.br/ccivil_03/leis/l8078compilado.htm#art42",
+      "data_verificacao": "2026-11-17"
+    },
+    {
+      "id": "CONS-004",
+      "tema": "consumidor",
+      "palavras_chave": ["ecommerce","virtual","sac","atendimento","oferta"],
+      "orientacao": "Lojas virtuais devem mostrar de forma clara os dados da empresa, como nome, CNPJ e endereço, além das características e do preço do produto. Também devem ter atendimento (SAC) para dúvidas, reclamações e cancelamentos, e permitir o arrependimento pelo mesmo meio usado na compra.",
+      "referencia": "https://www.planalto.gov.br/ccivil_03/_ato2011-2014/2013/decreto/d7962.htm",
+      "data_verificacao": "2026-11-17"
+    },
+    {
+      "id": "CONS-005",
+      "tema": "consumidor",
+      "palavras_chave": ["reclamar","reclamacao","procon","denunciar","empresa nao resolve","nao resolve"],
+      "orientacao": "Se a empresa não resolve o problema, o consumidor pode registrar reclamação no Consumidor.gov.br, onde a empresa tem até 10 dias para responder (só vale para empresas cadastradas), ou procurar o Procon. Vale guardar protocolos, notas fiscais e prints das conversas.",
+      "referencia": "https://www.consumidor.gov.br/pages/faleconosco/externo/novo",
+      "data_verificacao": "2026-11-17"
+    },
+    {
+      "id": "MAMB-001",
+      "tema": "meio_ambiente",
+      "palavras_chave": ["pilhas","baterias","descarte de pilhas","descartar bateria","ponto de entrega","logistica reversa"],
+      "orientacao": "Encaminhe pilhas e baterias usadas a pontos de recebimento que participem da logística reversa. Antes de se deslocar, consulte os pontos de entrega disponíveis na sua região.",
+      "referencia": "https://www.sinir.gov.br/perfis/logistica-reversa/logistica-reversa/pilhas-e-baterias/",
+      "data_verificacao": "2026-11-17"
+    },
+    {
+      "id": "MAMB-002",
+      "tema": "meio_ambiente",
+      "palavras_chave": ["denuncia ambiental","denunciar desmatamento","crime ambiental","queimada","ibama","infracao ambiental"],
+      "orientacao": "É possível apresentar denúncia ao Ibama sobre possíveis infrações ambientais, como desmatamento e queimadas ilegais. Consulte o serviço oficial para verificar os canais disponíveis e as informações necessárias para registrar a denúncia.",
+      "referencia": "https://www.gov.br/pt-br/servicos/apresentar-denuncia-ambiental",
+      "data_verificacao": "2026-11-17"
+    },
+    {
+      "id": "MAMB-003",
+      "tema": "meio_ambiente",
+      "palavras_chave": ["animal silvestre","animal selvagem","animal ferido","encontrei um animal","resgate de animal","cetas"],
+      "orientacao": "Se encontrar um animal silvestre ferido ou em situação de risco, procure orientação do Centro de Triagem de Animais Silvestres (Cetas) ou do órgão ambiental da sua região. Não tente capturar ou transportar o animal sem orientação especializada.",
+      "referencia": "https://www.gov.br/pt-br/servicos/realizar-a-entrega-de-animal-silvestre-no-centro-de-triagem-de-animais-silvestres-cetas",
+      "data_verificacao": "2026-11-17"
+    },
+    {
+      "id": "MAMB-004",
+      "tema": "meio_ambiente",
+      "palavras_chave": ["oleo de cozinha","oleo usado","descarte de oleo","jogar oleo na pia","reciclar oleo"],
+      "orientacao": "Não despeje óleo de cozinha usado na pia ou no ralo. Espere esfriar, armazene em recipiente fechado e procure um ponto de coleta ou iniciativa de reciclagem disponível no seu município.",
+      "referencia": "https://www.inea.rj.gov.br/wp-content/uploads/2020/06/Vamos_cuidar_do_lugar_onde_vivemos.pdf",
+      "data_verificacao": "2026-11-17"
+    },
+    {
+      "id": "MAMB-005",
+      "tema": "meio_ambiente",
+      "palavras_chave": ["coleta seletiva","separar lixo","reciclaveis","papel","plastico","vidro","metal","separacao de residuos"],
+      "orientacao": "Separe os resíduos recicláveis dos rejeitos e siga as orientações da coleta seletiva do seu município. Papel, plástico, vidro e metal são materiais comumente recicláveis, mas as regras de recebimento podem variar conforme o serviço local.",
+      "referencia": "https://www.gov.br/cidades/pt-br/acesso-a-informacao/acoes-e-programas/saneamento/snis/area-do-prestador-e-municipios/coleta-de-dados-do-snis-residuos-solidos-1/copy_of_Manual_RS_2022.pdf",
+      "data_verificacao": "2026-11-17"
+    },
+    {
+      "id": "EDUC-001",
+      "tema": "educacao",
+      "palavras_chave": ["matricula escola publica","conseguir vaga escola","inscrever filho escola","voltar estudar escola publica","vaga ensino fundamental","vaga ensino medio"],
+      "orientacao": "Para solicitar uma vaga na rede pública de ensino do Estado de São Paulo, o estudante que não possui matrícula ativa pode comparecer a qualquer escola pública estadual ou posto do Poupatempo. A inscrição pode ser realizada durante o ano letivo. Recomenda-se levar CPF, RG, comprovante de residência e histórico ou declaração escolar, quando disponíveis. A ausência de algum documento não impede a realização da inscrição. A escola em que a solicitação é feita não necessariamente será aquela em que a vaga será disponibilizada.",
+      "referencia": "https://servicos.sp.gov.br/fcarta/6f885778-1823-4a49-9204-a6e76c5a9d27",
+      "data_verificacao": "2026-11-19"
+    },
+    {
+      "id": "EDUC-002",
+      "tema": "educacao",
+      "palavras_chave": ["inscricao enem","fazer enem","prova enem","isenção taxa enem","não pagar inscrição enem","participar exame nacional ensino medio"],
+      "orientacao": "O Exame Nacional do Ensino Médio (ENEM) é utilizado como forma de acesso ao ensino superior, incluindo programas como Sisu, ProUni e FIES. A inscrição é realizada pela Página do Participante, utilizando uma conta gov.br. Algumas pessoas podem solicitar isenção da taxa de inscrição, desde que atendam aos critérios estabelecidos pelo INEP e respeitem os prazos do edital. Consulte o calendário e as regras da edição vigente antes de realizar a inscrição.",
+      "referencia": "https://www.gov.br/pt-br/servicos/fazer-o-exame-nacional-do-ensino-medio",
+      "data_verificacao": "2026-11-19"
+    },
+    {
+      "id": "EDUC-003",
+      "tema": "educacao",
+      "palavras_chave": ["bolsa prouni","conseguir bolsa faculdade","universidade para todos","bolsa integral faculdade","bolsa cinquenta por cento","inscricao prouni"],
+      "orientacao": "O Programa Universidade para Todos (ProUni) oferece bolsas integrais e parciais em instituições privadas de ensino superior. Para participar, o estudante deve atender aos critérios de desempenho no ENEM, renda familiar e escolaridade estabelecidos no edital vigente. A inscrição é gratuita e realizada pela internet, no Portal Único de Acesso ao Ensino Superior. Após a pré-seleção, é necessário comprovar as informações e apresentar a documentação exigida pela instituição.",
+      "referencia": "https://www.gov.br/pt-br/servicos/obter-bolsa-de-estudo-do-prouni",
+      "data_verificacao": "2026-11-19"
+    },
+    {
+      "id": "EDUC-004",
+      "tema": "educacao",
+      "palavras_chave": ["fies","financiamento faculdade","financiamento estudantil","pagar faculdade depois","ajuda financeira faculdade","financiar curso superior"],
+      "orientacao": "O Fundo de Financiamento Estudantil (FIES) é um programa do Ministério da Educação que oferece financiamento para estudantes de cursos superiores em instituições privadas participantes. Para concorrer, o candidato precisa atender aos critérios de participação no ENEM e renda familiar definidos pelo programa. A inscrição é realizada pelo Portal Único de Acesso ao Ensino Superior. Os candidatos pré-selecionados devem complementar as informações e seguir as etapas de validação e contratação dentro dos prazos estabelecidos.",
+      "referencia": "https://www.gov.br/pt-br/servicos/obter-financiamento-do-fies",
+      "data_verificacao": "2026-11-19"
+    },
+    {
+      "id": "EDUC-005",
+      "tema": "educacao",
+      "palavras_chave": ["pe de meia","beneficio estudante","dinheiro para estudante","incentivo ensino medio","receber beneficio escola","programa pe de meia"],
+      "orientacao": "O Programa Pé-de-Meia é um incentivo financeiro destinado a estudantes do ensino médio público que atendem aos critérios estabelecidos pelo Governo Federal. A participação ocorre automaticamente por meio do cruzamento de informações escolares e do Cadastro Único, não sendo necessário realizar inscrição individual. Entre os critérios estão matrícula na rede pública, CPF regular, requisitos de renda e frequência escolar mínima. Para verificar a elegibilidade e acompanhar o benefício, consulte os canais oficiais do Ministério da Educação.",
+      "referencia": "https://atendimento.educacao.sp.gov.br/knowledgebase/article/SED-08449/pt-br",
+      "data_verificacao": "2026-11-19"
+    },
+    {
+      "id": "TRAN-001",
+      "tema": "transito",
+      "palavras_chave": ["cnh digital","carteira de motorista digital","documento habilitacao celular","baixar cnh no celular","carteira digital de transito","aplicativo cnh do brasil"],
+      "orientacao": "A Carteira Nacional de Habilitação Digital (CNH Digital) permite acessar a versão eletrônica da habilitação pelo aplicativo CNH do Brasil. O documento digital possui a mesma validade jurídica da versão impressa em todo o território nacional. Para acessar, é necessário instalar o aplicativo, entrar com uma conta gov.br e possuir uma CNH válida com QR Code no verso. O serviço é gratuito. Caso ocorram problemas na emissão, o cidadão deve procurar o Detran responsável pela habilitação.",
+      "referencia": "https://www.gov.br/pt-br/servicos/emitir-a-carteira-nacional-de-habilitacao-digital-cnh-e",
+      "data_verificacao": "2026-11-19"
+    },
+    {
+      "id": "TRAN-002",
+      "tema": "transito",
+      "palavras_chave": ["consultar multas","consultar multa de transito","ver multas do carro","consultar infracoes","multa pendente","consultar pontos cnh","verificar multas veiculo"],
+      "orientacao": "No Estado de São Paulo, é possível consultar multas e infrações pelo portal do Detran-SP. O cidadão pode acessar os veículos vinculados ao próprio CPF ou consultar veículos de terceiros registrados no estado, informando placa e Renavam. É possível visualizar notificações, detalhes da infração e situação da multa. Para acessar o serviço, é necessário entrar com uma conta gov.br. A consulta é gratuita.",
+      "referencia": "https://servicos.sp.gov.br/fcarta/162FE8B3-C30A-46D6-8C9F-E3E9811FA85B",
+      "data_verificacao": "2026-11-19"
+    },
+    {
+      "id": "TRAN-003",
+      "tema": "transito",
+      "palavras_chave": ["recorrer multa","contestar multa","defesa multa transito","multa injusta","recurso de infracao","indicar condutor multa"],
+      "orientacao": "Caso o cidadão discorde de uma autuação de trânsito, pode apresentar defesa prévia ou recurso, conforme a etapa do processo administrativo. Em São Paulo, o Detran-SP disponibiliza serviços digitais para consultar infrações, apresentar defesa prévia, interpor recurso e indicar o condutor responsável, quando aplicável. É importante observar os prazos e as instruções indicados na notificação recebida. A documentação e os argumentos devem ser apresentados conforme as exigências do órgão responsável pela autuação.",
+      "referencia": "https://servicos.sp.gov.br/fcarta/162FE8B3-C30A-46D6-8C9F-E3E9811FA85B",
+      "data_verificacao": "2026-11-19"
+    },
+    {
+      "id": "TRAN-004",
+      "tema": "transito",
+      "palavras_chave": ["licenciamento veiculo","licenciar carro","documento carro atrasado","crlv digital","regularizar licenciamento","licenciamento anual"],
+      "orientacao": "O licenciamento anual é necessário para manter o veículo regularizado e permitir sua circulação. No Estado de São Paulo, o proprietário deve verificar a existência de débitos e restrições, como multas, IPVA e taxas de licenciamento. Após a regularização das pendências e o pagamento dos valores exigidos, o documento CRLV-e pode ser emitido digitalmente pelos canais oficiais do Detran-SP. Os prazos e valores devem ser consultados nos canais oficiais, pois podem variar conforme o exercício e o veículo.",
+      "referencia": "https://detran.sp.gov.br/",
+      "data_verificacao": "2026-11-19"
+    },
+    {
+      "id": "TRAN-005",
+      "tema": "transito",
+      "palavras_chave": ["transferir veiculo","transferencia de propriedade","comprar carro usado","passar carro para meu nome","transferir documento carro","vender veiculo"],
+      "orientacao": "Quando um veículo é vendido, é necessário realizar a transferência de propriedade para atualizar o registro junto ao órgão de trânsito. Em São Paulo, o procedimento pode ser iniciado pelos serviços digitais do Detran-SP. O comprador deve verificar a documentação necessária, a existência de débitos e restrições e as exigências de vistoria, quando aplicáveis. Também é importante observar o prazo legal para efetuar a transferência e evitar penalidades. Consulte o Detran-SP para verificar as etapas e os documentos exigidos para cada situação.",
+      "referencia": "https://detran.sp.gov.br/",
+      "data_verificacao": "2026-11-19"
+    }
+  ]

@@ -17,5 +17,15 @@
   {"pergunta": "qual o preço do dólar",                               "esperado": "NENHUM",   "tipo": "fora do tema"},
   {"pergunta": "",                                                    "esperado": "VAZIA",    "tipo": "limite: entrada vazia"},
   {"pergunta": "quero reclamar de uma loja virtual",                  "esperado": "AMBIGUA",  "tipo": "limite: ambígua"},
-  {"pergunta": "como renovar a cnh",                                  "esperado": "NENHUM",   "tipo": "limite: sem resposta confiável"}
+  {"pergunta": "como renovar a cnh",                                  "esperado": "NENHUM",   "tipo": "limite: sem resposta confiável"},
+  {"pergunta": "como conseguir vaga escola pública", "esperado": "EDUC-001", "tipo": "direta"},
+  {"pergunta": "como fazer inscrição no enem", "esperado": "EDUC-002", "tipo": "direta"},
+  {"pergunta": "como conseguir bolsa prouni", "esperado": "EDUC-003", "tipo": "direta"},
+  {"pergunta": "como funciona o fies", "esperado": "EDUC-004", "tipo": "direta"},
+  {"pergunta": "como receber benefício do pé de meia", "esperado": "EDUC-005", "tipo": "direta"},
+  {"pergunta": "como acessar a cnh digital", "esperado": "TRAN-001", "tipo": "direta"},
+  {"pergunta": "como consultar multas do veículo", "esperado": "TRAN-002", "tipo": "direta"},
+  {"pergunta": "como recorrer multa de trânsito", "esperado": "TRAN-003", "tipo": "direta"},
+  {"pergunta": "como fazer o licenciamento do veículo", "esperado": "TRAN-004", "tipo": "direta"},
+  {"pergunta": "como transferir veículo para meu nome", "esperado": "TRAN-005", "tipo": "direta"}
 ]
